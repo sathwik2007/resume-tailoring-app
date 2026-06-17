@@ -1,4 +1,3 @@
-# resume-tailoring-app
 # ATS Resume Tailor (Gemini Edition)
 
 A small CLI tool that tailors a `.docx` resume to a job description using Google Gemini AI. It extracts the document XML, sends the resume + job description to Gemini to generate suggested text replacements (as JSON), applies those replacements directly into the OOXML while preserving run-level formatting, and repacks the edited document back into a `.docx`.
